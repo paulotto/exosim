@@ -1,0 +1,12 @@
+build*
+devel*
+log*
+cmake-build-debug*
+.idea/
+/apps/
+docs/*
+__pycache__/
+!docs/CMakeLists.txt
+!docs/Doxyfile.in
+!resources/.placeholder
+include/ExoSimConfig.h
