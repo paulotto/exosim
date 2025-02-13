@@ -1,0 +1,148 @@
+{
+  "name": "Biomechanical Jaw Model",
+  "type": "Jaw",
+
+  "general_parameters": {
+    "model_type": "RIGID",
+    "enable_solver_debugging": false,
+    "enable_system_debugging": false,
+    "threads": 1,
+    "gravity": 9.81,
+    "time_step": 1.0e-3,
+    "simulation_time_limit": 30.0
+  },
+
+  "time_stepper": {
+    "time_stepper_verbose": false,
+    "hht_step_control": true,
+    "euler_i_max_iters": 10,
+    "trapezoidal_lin_max_iters": 15,
+    "newmark_max_iters": 10,
+    "hht_max_iters": 15,
+    "hht_alpha": -0.2,
+    "time_stepper_type": "EULER_IMPLICIT_LINEARIZED"
+  },
+
+  "solver": {
+    "solver_verbose": false,
+    "solver_tolerance": 1.0e-6,
+    "max_solver_iterations": 500,
+    "solver_type": "ADMM",
+
+    "admm_warm_start": true,
+    "admm_rho": 1.0,
+    "admm_tolerance_dual": 1.0e-6,
+    "admm_tolerance_primal": 1.0e-6,
+    "admm_step_policy": "BALANCED_FAST",
+    "admm_acceleration": "NESTEROV",
+
+    "mkl_lock_sparsity_pattern": true,
+    "mkl_use_sparsity_pattern_learner": true
+  },
+
+  "collision": {
+    "collision_margin": 1.0e-3,
+    "collision_envelope": 3.0e-5,
+    "bone_mesh_swept_sphere_thickness": 1.0e-4,
+    "contact_method": "NSC",
+    "collision_type": "BULLET",
+    "narrowphase_algorithm_multicore": "HYBRID",
+    "broadphase_grid_resolution_multicore": [10, 10, 10],
+    "contact_breaking_threshold_bullet": 1.0e-2,
+
+    "default_effective_curvature_radius_smc": 1.0e-6,
+    "contact_force_model_smc": "Hertz",
+    "adhesion_force_model_smc": "Constant",
+    "tangential_displ_model_smc": "OneStep",
+
+    "min_bounce_speed_nsc": 0.01,
+    "contact_recovery_speed_nsc": 1000000.0,
+
+    "skull_obj_file_coll": "meshes/jaw_1/collision/skull_smooth_coll.obj",
+    "maxilla_obj_file_coll": "meshes/jaw_1/collision/maxilla_coll.obj",
+    "mandible_obj_file_coll": "meshes/jaw_1/collision/mandible_smooth_coll.obj",
+    "skull_obj_file_rigid_coll": "meshes/jaw_1/collision/skull_smooth_coll.obj",
+    "maxilla_obj_file_rigid_coll": "meshes/jaw_1/collision/maxilla_coll.obj",
+    "mandible_obj_file_rigid_coll": "meshes/jaw_1/collision/mandible_smooth_coll.obj"
+  },
+
+  "material_properties": {
+    "bone_density": 3214.529403,
+
+    "use_material_properties_smc": true,
+    "bone_properties_smc": [0.1, 0.1, 20.0e9, 0.1, 0.05, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0],
+
+    "bone_properties_nsc": [0.01, 0.1, 0.05, 0.0, 0.0, 0.0, 0.0, 0.0]
+  },
+
+  "system_components": {
+    "incisal_frame_abs": {
+      "Location": [-0.000907, -0.100700, 0.090598],
+      "Orientation": [1.0, 0.0, 0.0, 0.0]
+    },
+
+    "tmj_constr_verbose": false,
+    "tmj_constr_u_limit": true,
+    "tmj_constr_v_limit": true,
+    "tmj_constr_vis_wireframe": true,
+    "tmj_constr_use_rel_pos": false,
+    "tmj_constr_point_surface_samples": 50,
+    "tmj_constr_point_surface_max_iters": 11,
+    "tmj_constr_point_surface_tolerance": 1.0e-6,
+
+    "tmj_constr_vis_color": [1.0, 0.84, 0],
+
+    "tmj_constr_pos_left": [0.049409, -0.055916, 0.015102],
+    "tmj_constr_pos_right": [-0.05222, -0.055916, 0.015102],
+    "tmj_constr_cardan_xyz_left": [-41.4, 0, 0],
+    "tmj_constr_cardan_xyz_right": [-41.4, 0, 0],
+
+    "tmj_constr_surface_nurbs_order": [1, 2],
+    "tmj_constr_ctrl_pts_per_dimension": [2, 5],
+
+    "tmj_constr_ctrl_pts_surface_nurbs_left": [
+      [0.047338, -0.057386, 0.020452],
+      [0.047338, -0.05785, 0.019027],
+      [0.047338, -0.05475, 0.015634],
+      [0.047338, -0.051808, 0.01302],
+      [0.047338, -0.051915, 0.012147],
+      [0.060477, -0.057386, 0.020452],
+      [0.060477, -0.05785, 0.019027],
+      [0.060477, -0.05475, 0.015634],
+      [0.060477, -0.051808, 0.01302],
+      [0.060477, -0.051915, 0.012147]
+    ],
+    "tmj_constr_ctrl_pts_surface_nurbs_right": [
+      [-0.062662, -0.057386, 0.020452],
+      [-0.062662, -0.05785, 0.019027],
+      [-0.062662, -0.05475, 0.015634],
+      [-0.062662, -0.051808, 0.01302],
+      [-0.062662, -0.051915, 0.012147],
+      [-0.049523, -0.057386, 0.020452],
+      [-0.049523, -0.05785, 0.019027],
+      [-0.049523, -0.05475, 0.015634],
+      [-0.049523, -0.051808, 0.01302],
+      [-0.049523, -0.051915, 0.012147]
+    ],
+
+    "fea": "json/jaw_1/fea.json",
+    "ligaments": "json/jaw_1/ligaments.json",
+    "muscles": "json/jaw_1/muscles.json"
+  },
+
+  "visualization": {
+    "run_sim_at_startup": false,
+    "window_width": 1920,
+    "window_height": 1080,
+    "window_title": "=== Human Jaw Model ===",
+    "vis_mode": "VSG",
+    "render_mode": "SOLID",
+    "background_color": [0.15, 0.15, 0.15],
+    "bone_color": [0.5, 0.5, 0.5],
+
+    "skull_obj_file_vis": "meshes/jaw_1/visualization/skull_vis.obj",
+    "maxilla_obj_file_vis": "meshes/jaw_1/visualization/maxilla_vis.obj",
+    "mandible_obj_file_vis": "meshes/jaw_1/visualization/mandible_vis.obj",
+    "hyoid_obj_file_vis": "meshes/jaw_1/visualization/hyoid_vis.obj"
+  }
+}

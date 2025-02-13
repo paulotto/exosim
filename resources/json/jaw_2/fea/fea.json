@@ -1,0 +1,43 @@
+{
+  "name": "FEA Properties",
+  "type": "FEA",
+
+  "material_properties": {
+    "tmj_disc_fea_use_mooney_rivlin": true,
+    "tmj_disc_fea_mr_c_1": 9.0e5,
+    "tmj_disc_fea_mr_c_2": 9.0e2,
+
+    "tmj_disc_fea_density": 1000.0,
+    "tmj_disc_fea_young_modulus": 9.0e6,
+    "tmj_disc_fea_poisson_ratio": 0.3,
+    "tmj_disc_fea_rayleigh_damping_alpha": 0.0,
+    "tmj_disc_fea_rayleigh_damping_beta": 0.1
+  },
+
+  "collision_properties": {
+    "tmj_disc_properties_smc": [0.1, 0.1, 9.0e5, 0.1, 0.1, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0],
+    "tmj_disc_properties_nsc": [0.1, 0.1, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0],
+    "tmj_disc_mesh_swept_sphere_thickness": 1.0e-4,
+
+    "tmj_disc_obj_file_coll": "meshes/jaw_2/collision/tmj_disc_coll.obj"
+  },
+
+  "auxiliary_bodies": {
+    "tmj_disc_fea_aux_body_radius": 1.5e-3
+  },
+
+  "meshes": {
+    "tmj_disc_fea_element_type": 4,
+    "tmj_disc_fea_implementation": "COROTATIONAL",
+
+    "tmj_disc_left_msh_file_fea": "meshes/jaw_2/fea/tmj_disc_left.fTetWild.msh",
+    "tmj_disc_right_msh_file_fea": "meshes/jaw_2/fea/tmj_disc_right.fTetWild.msh"
+  },
+
+  "visualization": {
+    "fea_wireframe": false,
+    "fea_smooth_faces": true,
+    "color_scale_min_max": [0.0, 5.0],
+    "fea_vis_data_type": "ELEM_STRAIN_VONMISES"
+  }
+}

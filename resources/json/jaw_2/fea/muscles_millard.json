@@ -1,0 +1,271 @@
+{
+    "name": "Muscle Properties",
+    "type": "Muscle",
+    "muscle_type": "MILLARD",
+    "muscles_verbose": false,
+    "stiff_muscles": false,
+    "muscle_activation_dynamics": true,
+    "muscle_properties": [
+        {
+            "name": "posterior_temporalis_left",
+            "body_1": "mandible",
+            "body_2": "skull",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 75.6, 0.064967, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [0.047508, -0.07463, 0.051649],
+            "attachment_2": [0.072731, -0.038848, 0.002376],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "posterior_temporalis_right",
+            "body_1": "mandible",
+            "body_2": "skull",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 75.6, 0.06619, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [-0.047482, -0.07463, 0.051649],
+            "attachment_2": [-0.074369, -0.038443, 0.001848],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "medial_temporalis_left",
+            "body_1": "mandible",
+            "body_2": "skull",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 95.6, 0.078607, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [0.047428, -0.074333, 0.052825],
+            "attachment_2": [0.073781, -0.006373, 0.021236],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "medial_temporalis_right",
+            "body_1": "mandible",
+            "body_2": "skull",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 95.6, 0.078706, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [-0.047401, -0.074333, 0.052825],
+            "attachment_2": [-0.073707, -0.006364, 0.020857],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "anterior_temporalis_left",
+            "body_1": "mandible",
+            "body_2": "skull",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 158, 0.087553, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [0.037138, -0.097696, 0.046167],
+            "attachment_2": [0.057529, -0.013507, 0.061659],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "anterior_temporalis_right",
+            "body_1": "mandible",
+            "body_2": "skull",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 158, 0.087031, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [-0.037112, -0.097696, 0.046167],
+            "attachment_2": [-0.057329, -0.013929, 0.061392],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "medial_pterygoid_left",
+            "body_1": "mandible",
+            "body_2": "maxilla",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 174.8, 0.051123, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [0.041573, -0.124744, 0.032283],
+            "attachment_2": [0.021974, -0.077632, 0.040484],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "medial_pterygoid_right",
+            "body_1": "mandible",
+            "body_2": "maxilla",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 174.8, 0.051097, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [-0.041547, -0.124744, 0.032283],
+            "attachment_2": [-0.022103, -0.077597, 0.040239],
+            "color": [0.6, 0.17, 0.17]
+        },/* {
+            "name": "superior_lateral_pterygoid_left",
+            "body_1": "mandible",
+            "body_2": "maxilla",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 17, 0.02106, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [0.048132, -0.075091, 0.021681],
+            "attachment_2": [0.044195, -0.064302, 0.039071],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "superior_lateral_pterygoid_right",
+            "body_1": "mandible",
+            "body_2": "maxilla",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 17, 0.020977, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [-0.048106, -0.075091, 0.021681],
+            "attachment_2": [-0.044585, -0.064435, 0.039106],
+            "color": [0.6, 0.17, 0.17]
+        },*/ {
+            "name": "superior_lateral_pterygoid_left",
+            "body_1": "tmj_disc_left_fea_aux_bodies_0",
+            "body_2": "maxilla",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 17, 0.02106, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [0.047009, -0.072507, 0.023149],
+            "attachment_2": [0.044195, -0.064302, 0.039071],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "superior_lateral_pterygoid_right",
+            "body_1": "tmj_disc_right_fea_aux_bodies_0",
+            "body_2": "maxilla",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 17, 0.020977, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [-0.047009, -0.072507, 0.023149],
+            "attachment_2": [-0.044585, -0.064435, 0.039106],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "inferior_lateral_pterygoid_left",
+            "body_1": "mandible",
+            "body_2": "maxilla",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 66.9, 0.030255, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [0.048964, -0.076605, 0.022065],
+            "attachment_2": [0.023773, -0.073359, 0.039066],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "inferior_lateral_pterygoid_right",
+            "body_1": "mandible",
+            "body_2": "maxilla",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 66.9, 0.030132, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [-0.048938, -0.076605, 0.022065],
+            "attachment_2": [-0.023643, -0.073492, 0.038599],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "superficial_masseter_left",
+            "body_1": "mandible",
+            "body_2": "maxilla",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 190.4, 0.052095, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [0.047367, -0.124933, 0.031859],
+            "attachment_2": [0.057321, -0.079778, 0.05595],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "superficial_masseter_right",
+            "body_1": "mandible",
+            "body_2": "maxilla",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 190.4, 0.051823, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [-0.047341, -0.124933, 0.031859],
+            "attachment_2": [-0.056699, -0.07979, 0.055691],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "deep_masseter_left",
+            "body_1": "mandible",
+            "body_2": "maxilla",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 81.6, 0.031842, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [0.046459, -0.099725, 0.036351],
+            "attachment_2": [0.062619, -0.072225, 0.041421],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "deep_masseter_right",
+            "body_1": "mandible",
+            "body_2": "maxilla",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 81.6, 0.031715, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [-0.046433, -0.099725, 0.036351],
+            "attachment_2": [-0.062581, -0.072245, 0.041206],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "geniohyoid_left",
+            "body_1": "mandible",
+            "body_2": "hyoid",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 20, 0.013957, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [0.002494, -0.140281, 0.084982],
+            "attachment_2": [0.001795, -0.146889, 0.052506],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "geniohyoid_right",
+            "body_1": "mandible",
+            "body_2": "hyoid",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 20, 0.013957, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [-0.002468, -0.140281, 0.084982],
+            "attachment_2": [-0.001868, -0.147, 0.052493],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "anterior_digastric_left",
+            "body_1": "mandible",
+            "body_2": "hyoid",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 40, 0.021591, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [0.007394, -0.143029, 0.086041],
+            "attachment_2": [0.014645, -0.145468, 0.048049],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "anterior_digastric_right",
+            "body_1": "mandible",
+            "body_2": "hyoid",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 40, 0.021591, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [-0.006736, -0.14293, 0.086098],
+            "attachment_2": [-0.014592, -0.145468, 0.048049],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "posterior_mylohyoid_left",
+            "body_1": "mandible",
+            "body_2": "hyoid",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 20, 0.024255, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [0.028467, -0.122611, 0.050586],
+            "attachment_2": [0.014947, -0.14533, 0.047443],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "posterior_mylohyoid_right",
+            "body_1": "mandible",
+            "body_2": "hyoid",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 20, 0.024255, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [-0.02844, -0.122611, 0.050586],
+            "attachment_2": [-0.014822, -0.145319, 0.047447],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "anterior_mylohyoid_left",
+            "body_1": "mandible",
+            "body_2": "hyoid",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 20, 0.018194, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [0.020168, -0.136467, 0.071549],
+            "attachment_2": [0.002094, -0.148097, 0.053461],
+            "color": [0.6, 0.17, 0.17]
+        }, {
+            "name": "anterior_mylohyoid_right",
+            "body_1": "mandible",
+            "body_2": "hyoid",
+            "local_coordinates": true,
+            "rel_to_ref": true,
+            "parameter": [0.1, 20, 0.018194, 0.3, 0.15, 0.17, true, true],
+            "attachment_1": [-0.020141, -0.136467, 0.071549],
+            "attachment_2": [-0.002041, -0.148097, 0.053461],
+            "color": [0.6, 0.17, 0.17]
+        }
+    ]
+}

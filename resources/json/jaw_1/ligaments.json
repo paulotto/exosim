@@ -1,0 +1,184 @@
+{
+  "name": "Ligament Properties",
+  "type": "Ligament",
+
+  "ligament_type": "BLANKERVOORT",
+  "ligaments_verbose": false,
+  "tmj_capsule_ligaments_verbose": false,
+  "stiff_ligaments": true,
+  "stiff_tmj_capsule_ligaments": true,
+
+  "ligament_properties": [
+    {
+      "name": "stylomandibular_left",
+      "parameter": [0.04173325, 0.1222139, 10.0, 0.091660175, 0.003],
+      "body_1": "mandible",
+      "body_2": "skull",
+      "attachment_1": [0.045159, -0.099225, 0.012996],
+      "attachment_2": [0.039412, -0.072062, 0.000869],
+      "local_coordinates": true,
+      "rel_to_ref": true,
+      "color": [0.13, 0.54, 0.13],
+      "visual_shape": [0.0025, 100, 20]
+    },
+    {
+      "name": "stylomandibular_right",
+      "parameter": [0.0402727, 0.091033, 10.0, 0.06827475, 0.003],
+      "body_1": "mandible",
+      "body_2": "skull",
+      "attachment_1": [-0.046965, -0.098519, 0.013375],
+      "attachment_2": [-0.040649, -0.072677, 0.001349],
+      "local_coordinates": true,
+      "rel_to_ref": true,
+      "color": [0.13, 0.54, 0.13],
+      "visual_shape": [0.0025, 100, 20]
+    },
+    {
+      "name": "sphenomandibular_left",
+      "parameter": [0.04609504, 0.0988304, 10.0, 0.0741228, 0.003],
+      "body_1": "mandible",
+      "body_2": "skull",
+      "attachment_1": [0.043112, -0.086093, 0.02110],
+      "attachment_2": [0.032362, -0.056498, 0.009353],
+      "local_coordinates": true,
+      "rel_to_ref": true,
+      "color": [0.13, 0.54, 0.13],
+      "visual_shape": [0.0025, 100, 20]
+    },
+    {
+      "name": "sphenomandibular_right",
+      "parameter": [0.0461967, 0.0620286, 10.0, 0.04652145, 0.003],
+      "body_1": "mandible",
+      "body_2": "skull",
+      "attachment_1": [-0.044918, -0.086157, 0.02115],
+      "attachment_2": [-0.032595, -0.057076, 0.009112],
+      "local_coordinates": true,
+      "rel_to_ref": true,
+      "color": [0.13, 0.54, 0.13],
+      "visual_shape": [0.0025, 100, 20]
+    },
+    {
+      "name": "temporomandibular_left",
+      "parameter": [0.02912377, 0.0776531, 10.0, 0.058239825, 0.003],
+      "body_1": "mandible",
+      "body_2": "skull",
+      "attachment_1": [0.052755, -0.06908, 0.015994],
+      "attachment_2": [0.059902, -0.050539, 0.021368],
+      "local_coordinates": true,
+      "rel_to_ref": true,
+      "color": [0.13, 0.54, 0.13],
+      "visual_shape": [0.0025, 100, 20]
+    },
+    {
+      "name": "temporomandibular_right",
+      "parameter": [0.0295971, 0.0886738, 10.0, 0.06650535, 0.003],
+      "body_1": "mandible",
+      "body_2": "skull",
+      "attachment_1": [-0.054442, -0.069513, 0.015986],
+      "attachment_2": [-0.061801, -0.050485, 0.020677],
+      "local_coordinates": true,
+      "rel_to_ref": true,
+      "color": [0.13, 0.54, 0.13],
+      "visual_shape": [0.0025, 100, 20]
+    }
+  ],
+
+  "capsule_ligament_properties": [
+    {
+      "name": "tmj_capsule_anterior_left",
+      "parameter": [0.01086, 0.0, 10.0, 0.1, 0.01],
+      "body_1": "tmj_disc_left_fea_aux_bodies_0",
+      "body_2": "mandible",
+      "attachment_1": [0.047176, -0.049148, 0.014277],
+      "attachment_2": [0.04836, -0.055025, 0.010947],
+      "local_coordinates": false,
+      "rel_to_ref": false,
+      "color": [0.0, 0.39, 0.0],
+      "visual_shape": [0.0005, 100, 10]
+    },
+    {
+      "name": "tmj_capsule_anterior_right",
+      "parameter": [0.00738, 0.0, 10.0, 0.1, 0.01],
+      "body_1": "tmj_disc_right_fea_aux_bodies_0",
+      "body_2": "mandible",
+      "attachment_1": [-0.048584, -0.050541, 0.016541],
+      "attachment_2": [-0.050273, -0.055031, 0.010929],
+      "local_coordinates": false,
+      "rel_to_ref": false,
+      "color": [0.0, 0.39, 0.0],
+      "visual_shape": [0.0005, 100, 10]
+    },
+    {
+      "name": "tmj_capsule_posterior_left",
+      "parameter": [0.018165, 0.0, 10.0, 0.1, 0.01],
+      "body_1": "tmj_disc_left_fea_aux_bodies_1",
+      "body_2": "skull",
+      "attachment_1": [0.050679, -0.046954, 0.003682],
+      "attachment_2": [0.050024, -0.045035, 0.005328],
+      "local_coordinates": false,
+      "rel_to_ref": false,
+      "color": [0.0, 0.39, 0.0],
+      "visual_shape": [0.0005, 100, 10]
+    },
+    {
+      "name": "tmj_capsule_posterior_right",
+      "parameter": [0.015805, 0.0, 10.0, 0.1, 0.01],
+      "body_1": "tmj_disc_right_fea_aux_bodies_1",
+      "body_2": "skull",
+      "attachment_1": [-0.052442, -0.047219, 0.003765],
+      "attachment_2": [-0.04944, -0.045716, 0.005688],
+      "local_coordinates": false,
+      "rel_to_ref": false,
+      "color": [0.0, 0.39, 0.0],
+      "visual_shape": [0.0005, 100, 10]
+    },
+    {
+      "name": "tmj_capsule_lateral_left",
+      "parameter": [0.00621, 0.0, 10.0, 0.1, 0.01],
+      "body_1": "tmj_disc_left_fea_aux_bodies_2",
+      "body_2": "mandible",
+      "attachment_1": [0.059551, -0.04921, 0.013155],
+      "attachment_2": [0.059284, -0.053409, 0.01306],
+      "local_coordinates": false,
+      "rel_to_ref": false,
+      "color": [0.0, 0.39, 0.0],
+      "visual_shape": [0.0005, 100, 10]
+    },
+    {
+      "name": "tmj_capsule_lateral_right",
+      "parameter": [0.00397, 0.0, 10.0, 0.1, 0.01],
+      "body_1": "tmj_disc_right_fea_aux_bodies_2",
+      "body_2": "mandible",
+      "attachment_1": [-0.060113, -0.049276, 0.013384],
+      "attachment_2": [-0.060465, -0.053028, 0.014633],
+      "local_coordinates": false,
+      "rel_to_ref": false,
+      "color": [0.0, 0.39, 0.0],
+      "visual_shape": [0.0005, 100, 10]
+    },
+    {
+      "name": "tmj_capsule_medial_left",
+      "parameter": [0.008853, 0.0, 10.0, 0.1, 0.01],
+      "body_1": "tmj_disc_left_fea_aux_bodies_3",
+      "body_2": "mandible",
+      "attachment_1": [0.037926, -0.048312, 0.005544],
+      "attachment_2": [0.039402, -0.052888, 0.005442],
+      "local_coordinates": false,
+      "rel_to_ref": false,
+      "color": [0.0, 0.39, 0.0],
+      "visual_shape": [0.0005, 100, 10]
+    },
+    {
+      "name": "tmj_capsule_medial_right",
+      "parameter": [0.00402, 0.0, 10.0, 0.1, 0.01],
+      "body_1": "tmj_disc_right_fea_aux_bodies_3",
+      "body_2": "mandible",
+      "attachment_1": [-0.041112, -0.048367, 0.004315],
+      "attachment_2": [-0.041171, -0.052103, 0.005808],
+      "local_coordinates": false,
+      "rel_to_ref": false,
+      "color": [0.0, 0.39, 0.0],
+      "visual_shape": [0.0005, 100, 10]
+    }
+  ]
+}
