@@ -14,11 +14,11 @@ extended, and adapted to different individuals and applications.
 
 ## Table Of Contents
 - [Installation](#installation)
+- [Features](#features)
 - [Usage](#usage)
 - [Roadmap](#roadmap)
 - [License](#license)
-- [Copyright Notice](#copyright-notice)
-- [Third-Party Dependencies](#third-party-dependencies)
+- [Copyright Notices](#copyright-notices)
 - [Authors and Acknowledgment](#authors-and-acknowledgment)
 
 ## Installation
