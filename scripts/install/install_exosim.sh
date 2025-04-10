@@ -6,7 +6,7 @@
 
 UBUNTU_VERSION="22.04" # 24.04
 VULKAN_VERSION="1.3.296"
-CHRONO_VERSION="main"
+CHRONO_VERSION="988297616c4b7ec77906abe28620baba5f62b1bb"
 
 EXOSIM_BUILD_TYPE="Release"
 EXOSIM_DIR=$(dirname "$(dirname "$(dirname "$(realpath "$0")")")")
