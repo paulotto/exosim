@@ -96,4 +96,16 @@ or later.
 
 ## Authors and Acknowledgment
 - Paul-Otto Müller, SIM Group, TU Darmstadt
-- TODO: Add citation
+### Citation
+```bibtex
+@INPROCEEDINGS{Mueller2025,
+  author={Müller, Paul-Otto and von Stryk, Oskar},
+  booktitle={2025 IEEE International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)}, 
+  title={The Foundation for Developing an Exoskeleton for the Rehabilitation of Temporomandibular Disorders}, 
+  year={2025},
+  pages={1-6},
+  keywords={Accuracy;Computational modeling;Biological system modeling;Exoskeletons;Predictive models;Muscles;Programming;Rapid prototyping;Data models;Optimization;exoskeletons;jaw model;temporomandibular disorders;rehabilitation;framework},
+  url={https://ieeexplore.ieee.org/abstract/document/10979121},
+  doi={10.1109/SIMPAR62925.2025.10979121}
+}
+```
