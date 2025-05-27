@@ -1,6 +1,6 @@
 # ExoSim
 <a href="#"><img src="https://img.shields.io/badge/C++-17+-blue?logo=c%2B%2B&style=for-the-badge" /></a>
-<a href="[https://paulotto.github.io](https://paulotto.github.io/projects/exosim/)"><img src="https://img.shields.io/badge/Website-ExoSim-color?style=for-the-badge&color=rgb(187%2C38%2C73)" /></a>
+<a href="https://paulotto.github.io/projects/exosim/"><img src="https://img.shields.io/badge/Website-ExoSim-color?style=for-the-badge&color=rgb(187%2C38%2C73)" /></a>
 
 This project is intended as an extension of the [*Project Chrono*](https://projectchrono.org/) multi-physics simulation engine 
 for simulating biomechanical systems and exoskeletons. For now, the main focus is on the simulation of the 
